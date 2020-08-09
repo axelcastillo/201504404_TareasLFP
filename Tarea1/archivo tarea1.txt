@@ -1,0 +1,31 @@
+Programación Imperativa:
+   Es un paradigma de programación. Por ejemplo,  cuando nosotros le indicamos a la maquina que hacer por medio
+   de varias lineas de código con una serie de instrucciones. Este lenguaje es más fácil de aprender porque se lee 
+   paso a paso y tiene buena legibilidad, lo malo es que requiere más lineas de código, se complica m+as la optimización 
+   y la ampliación del código. Algunos lenguajes Imperativos:
+  
+  -BASIC
+  -C
+  -C++
+   
+   Ejemplo: una lista de nombres:
+
+   $listaParticipantes = [1 => 'Peter', 2 => 'Hans', 3 => 'Sarah'];
+   $nombres = [];
+   foreach ($listaParticipantes as $id => $name) {
+   $nombres[] = $name;
+}
+
+Programación Declarativa:
+   Es una forma de programación muy eficiente que implica buscar la solución de un problema dado con  lógica del algoritmo,
+   es decir en lugar de mostrar todos los pasos del programa, se determina automáticamente la vía de la solución.
+   Algunos lenguajes declarativos pueden ser:
+
+  -PROLOG
+  -SQL
+  -HTML
+
+  Ejemplo: Una lista de nombres:
+
+  $nombres = array_values($listaParticipantes);
+  
